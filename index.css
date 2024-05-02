@@ -1,0 +1,58 @@
+#imagem_principal  { 
+    width: 70%;
+    height: 500px;
+    margin-left: 15%;
+    margin-right: 10%;
+    border-radius: 10%;
+
+}
+
+a {
+    background-color: #ebba6d;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*aqui*/
+div {
+margin-left: 35%;
+margin-right: 35%;
+
+}
+
+/*aqui*/
+.itens {
+    font-style: italic;
+    font-size: large;
+}
+
+#conteudo_principal  {
+margin: 5%;
+background-color: rgb(145, 217, 235);
+padding: 5%;
+
+}
+
+ul{
+display: inline-block;
+vertical-align: top;
+margin-right: 10%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#imagem_dois { 
+    width: 50%;
+    height: 600px;
+    margin-left: 0%;
+    margin-right: 10%;
+    border-radius: 20%;
+
+}

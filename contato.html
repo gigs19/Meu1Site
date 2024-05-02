@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="loja de brinquedos.png"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">produtos</a></li>
+                    <li><a href="contato.html">contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="telefone">telefone</label>
+            <input id="telefone"type="text">
+
+            <label for="mensagem">mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem"></textarea>
+             <div>
+
+            <p>Como prefere nosso contato?</p>
+            <label for="radio-email">email</label>
+            <input type="radio" name="contato" value="email" id="radio-email">
+            <label for="radio-telefone">telefone</label>
+            <input type="radio" name="contato" value="telefone" id="radio-email">
+            <label for="radio-whatsapp">Whatsapp</label>
+            <input type="radio" name="contato" value="" id="radio-whatsapp">
+        </div>
+        <label class="checkbox">
+            <input type="checkbox" name="contato" checked id="contato">
+            Gostaria de receber nosso contato?
+        </label>
+        <div>
+        </p>Qual horário prefere ser atendido?</p>
+        <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+        </select>
+        </div>
+        
+        <input type="submit" class="enviar" value="Enviar Formulario">
+        </form>
+    </main>
+    
+    <footer>
+        <img src="urso.PNG">
+        <p>&copy; copyright loja de brinquedos - desenvolvido por: Giovanna Vicentini</p>
+    </footer>
+</body>
+
+</html>
